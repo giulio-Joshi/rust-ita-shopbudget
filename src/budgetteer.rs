@@ -1,7 +1,6 @@
 
 ///
-/// Optimize budget to get 
-///
+/// Optimize selection of items from two lists of prices, based on initial budget balue.
 ///
 ///
 pub fn budget_optimize(budget: u64, mut keyboards: Vec<u64>, mut memory: Vec<u64>) -> Result<u64, &'static str > {
